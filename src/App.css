@@ -1,38 +1,36 @@
-.App {
+:root {
+  --branding-color: rgb(3, 211, 208);
+  --main-text-color: rgb(44, 44, 50);
+  --second-text-color: rgb(255, 255, 255);
+  --background-color: rgb(237, 252, 251);
+  --shecodes-color: rgb(136, 93, 241);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Catamaran", sans-serif;
+}
+
+.hero {
+  font-family: var(--default-font-family);
+  color: var(--main-text-color);
+  background: var(--background-color);
   text-align: center;
+  padding: 100px 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero h5 {
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 112px;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero h3 {
+  font-size: 28px;
+  font-weight: 600;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ua {
+  width: 30px;
 }
