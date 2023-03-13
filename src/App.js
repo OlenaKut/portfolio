@@ -2,10 +2,12 @@ import "./App.css";
 import UA from "./pictures/UA.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import Link from "react-bootstrap/Button";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <div className="hero">
         <h5>👋 Hello, I am</h5>
         <h1>Olena Kutasevych</h1>

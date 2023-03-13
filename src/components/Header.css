@@ -1,0 +1,26 @@
+.header {
+  background-color: white;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+.logo-text {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--branding-color);
+  margin: 20px 5px;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+.link:hover {
+  color: var(--branding-color);
+}
