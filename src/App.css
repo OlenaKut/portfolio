@@ -34,3 +34,23 @@
 .ua {
   width: 30px;
 }
+
+.btn-branding {
+  background: var(--branding-color);
+  color: var(--second-text-color);
+  line-height: 24px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.btn-branding:hover {
+  color: var(--branding-color);
+  background: var(--second-text-color);
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid var(--branding-color);
+  transition: all 200ms ease-in-out;
+}
