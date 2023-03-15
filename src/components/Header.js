@@ -57,13 +57,15 @@ const Header = () => {
                       About
                     </Nav.Link>
                   </LinkContainer>
-                  <Nav.Link
-                    href="#action2"
-                    className="link mx-3"
-                    title="Contact Olena"
-                  >
-                    Contact
-                  </Nav.Link>
+                  <LinkContainer to="/contact">
+                    <Nav.Link
+                      href="#action2"
+                      className="link mx-3"
+                      title="Contact Olena"
+                    >
+                      Contact
+                    </Nav.Link>
+                  </LinkContainer>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

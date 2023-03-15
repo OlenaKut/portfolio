@@ -4,6 +4,7 @@ import Facebook_icon from "../pictures/Facebook_icon.png";
 import linkedin from "../pictures/linkedin.png";
 import Instagram_icon from "../pictures/Instagram_icon.webp";
 import "./Footer.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Footer = () => {
   return (
@@ -17,14 +18,16 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-contact-button">
-          <a
-            rel="noopener noreferrer"
-            href="/"
-            className="btn shadow footer-btn-contact-me"
-            title="Contact Olena"
-          >
-            Contact me
-          </a>
+          <LinkContainer to="/contact">
+            <a
+              rel="noopener noreferrer"
+              href="/"
+              className="btn shadow footer-btn-contact-me"
+              title="Contact Olena"
+            >
+              Contact me
+            </a>
+          </LinkContainer>
         </div>
       </div>
       <div className="media text-center">
