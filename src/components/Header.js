@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "../pictures/logo.png";
 import "./Header.css";
-
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Header = () => {
   return (
@@ -30,13 +30,15 @@ const Header = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link
-                    href="#action1"
-                    className="link mx-3"
-                    title="Homepage"
-                  >
-                    Home
-                  </Nav.Link>
+                  <LinkContainer to="/">
+                    <Nav.Link
+                      href="#action1"
+                      className="link mx-3"
+                      title="Homepage"
+                    >
+                      Home
+                    </Nav.Link>
+                  </LinkContainer>
                   <Nav.Link
                     href="#action2"
                     className="link mx-3"
@@ -44,13 +46,15 @@ const Header = () => {
                   >
                     About
                   </Nav.Link>
-                  <Nav.Link
-                    href="#action1"
-                    className="link mx-3"
-                    title="Olena's Work"
-                  >
-                    Work
-                  </Nav.Link>
+                  <LinkContainer to="/work">
+                    <Nav.Link
+                      href="#action1"
+                      className="link mx-3"
+                      title="Olena's Work"
+                    >
+                      Work
+                    </Nav.Link>
+                  </LinkContainer>
                   <Nav.Link
                     href="#action2"
                     className="link mx-3"

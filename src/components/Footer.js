@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer-contact-button">
           <a
             rel="noopener noreferrer"
-            href="/contact.html"
+            href="/"
             className="btn shadow footer-btn-contact-me"
             title="Contact Olena"
           >

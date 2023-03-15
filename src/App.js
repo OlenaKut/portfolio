@@ -1,13 +1,16 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import Link from "react-bootstrap/Button";
-
-import FirstPage from "./pages/home/FirstPage";
+import { Routes, Route } from "react-router-dom";
+import FirstPage from "./pages/FirstPage";
+import WorkPage from "./pages/WorkPage";
 
 function App() {
   return (
     <div>
-      <FirstPage />
+      <Routes>
+        <Route path="/" element={<FirstPage />} />
+        <Route path="/work" element={<WorkPage />} />
+      </Routes>
     </div>
   );
 }
