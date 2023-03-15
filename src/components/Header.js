@@ -39,13 +39,6 @@ const Header = () => {
                       Home
                     </Nav.Link>
                   </LinkContainer>
-                  <Nav.Link
-                    href="#action2"
-                    className="link mx-3"
-                    title="About Olena"
-                  >
-                    About
-                  </Nav.Link>
                   <LinkContainer to="/work">
                     <Nav.Link
                       href="#action1"
@@ -53,6 +46,15 @@ const Header = () => {
                       title="Olena's Work"
                     >
                       Work
+                    </Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/about">
+                    <Nav.Link
+                      href="#action2"
+                      className="link mx-3"
+                      title="About Olena"
+                    >
+                      About
                     </Nav.Link>
                   </LinkContainer>
                   <Nav.Link
