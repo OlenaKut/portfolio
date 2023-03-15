@@ -20,7 +20,7 @@ const Footer = () => {
           <a
             rel="noopener noreferrer"
             href="/contact.html"
-            className="btn btn-branding-outline p-3 p-sm-4 shadow footer-btn-contact-me"
+            className="btn shadow footer-btn-contact-me"
             title="Contact Olena"
           >
             Contact me
