@@ -35,7 +35,7 @@ const Main = () => {
               title="This is my website - https://uvhts.netlify.app/"
               rel="noopener noreferrer"
             >
-              <button class="btn btn-branding-outline p-3 shadow">
+              <button class="btn btn-branding-outline p-sm-3 p-2 shadow">
                 UVHST Project
               </button>
             </a>
@@ -61,7 +61,7 @@ const Main = () => {
               title="This is my first app - https://react-weather-app-olenak.netlify.app/"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-branding-outline p-3 shadow">
+              <button className="btn btn-branding-outline p-sm-3 p-2 shadow">
                 Weather App
               </button>
             </a>
@@ -101,7 +101,7 @@ const Main = () => {
               title="This is my website - https://react-dictionary-app-ok.netlify.app/"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-branding-outline p-3 shadow">
+              <button className="btn btn-branding-outline p-sm-3 p-2 shadow">
                 Dictionary App
               </button>
             </a>

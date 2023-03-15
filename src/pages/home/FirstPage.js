@@ -11,7 +11,7 @@ const FirstPage = () => {
       <div className="hero shadow-sm mb-5">
         <h5>👋 Hello, I am</h5>
         <h1>Olena Kutasevych</h1>
-        <h3 className="mb-4">
+        <h3 className="mb-md-4 mb-1">
           Front-end developer, based in Sweden
           <img src={UA} alt="Ukraine" className="ua m-2" />
         </h3>
