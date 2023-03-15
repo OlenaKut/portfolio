@@ -9,7 +9,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 
 const Header = () => {
   return (
-    <div className="container-fluid sticky-top header">
+    <div className="container-fluid sticky-top header shadow-sm">
       <div className="d-flex p-3 justify-content-between" sticky="top">
         <div className="d-flex">
           <img src={logo} alt="Logo-Olena-Kutasevych" className="logo" />

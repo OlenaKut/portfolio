@@ -1,0 +1,32 @@
+.main-images {
+  background: var(--background-color);
+}
+.text-block {
+  padding: 130px;
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 54px;
+  font-weight: 600;
+}
+p {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.btn-branding-outline {
+  background: var(--branding-color);
+  color: var(--second-text-color);
+  line-height: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: var(--second-text-color);
+  line-height: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+}
