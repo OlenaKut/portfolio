@@ -6,7 +6,7 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div className="">
+    <div>
       <div className="container-fluid">
         <div className="row m-3">
           <div className="col-md-6 p-5 text-center rounded main-images d-md-block d-none">
@@ -79,7 +79,7 @@ const Main = () => {
           <div className="col-md-6 p-5 text-center rounded main-images d-md-block d-none">
             <img
               src={dictionary}
-              alt="Warriors Project by Olena Kutasevych"
+              alt="Dictionary Project by Olena Kutasevych"
               className="img-fluid rounded-3"
             />
           </div>

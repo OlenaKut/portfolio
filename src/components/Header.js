@@ -31,38 +31,22 @@ const Header = () => {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <LinkContainer to="/">
-                    <Nav.Link
-                      href="#action1"
-                      className="link mx-3"
-                      title="Homepage"
-                    >
+                    <Nav.Link className="link mx-3" title="Homepage">
                       Home
                     </Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/work">
-                    <Nav.Link
-                      href="#action1"
-                      className="link mx-3"
-                      title="Olena's Work"
-                    >
+                    <Nav.Link className="link mx-3" title="Olena's Work">
                       Work
                     </Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/about">
-                    <Nav.Link
-                      href="#action2"
-                      className="link mx-3"
-                      title="About Olena"
-                    >
+                    <Nav.Link className="link mx-3" title="About Olena">
                       About
                     </Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/contact">
-                    <Nav.Link
-                      href="#action2"
-                      className="link mx-3"
-                      title="Contact Olena"
-                    >
+                    <Nav.Link className="link mx-3" title="Contact Olena">
                       Contact
                     </Nav.Link>
                   </LinkContainer>

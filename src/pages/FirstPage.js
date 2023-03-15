@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import UA from "../pictures/UA.png";
+import { LinkContainer } from "react-router-bootstrap";
 
 const FirstPage = () => {
   return (
@@ -15,16 +16,16 @@ const FirstPage = () => {
           Front-end developer, based in Sweden
           <img src={UA} alt="Ukraine" className="ua m-2" />
         </h3>
-        <button
-          href="/contact.html"
-          className="btn-branding"
-          title="Contact Olena"
-        >
-          Contact me
-        </button>
-        <button href="/about.html" className="btn-branding" title="About Olena">
-          About me
-        </button>
+        <LinkContainer to="/contact">
+          <button className="btn-branding" title="Contact Olena">
+            Contact me
+          </button>
+        </LinkContainer>
+        <LinkContainer to="/about">
+          <button className="btn-branding" title="About Olena">
+            About me
+          </button>
+        </LinkContainer>
       </div>
       <Main />
       <Footer />
